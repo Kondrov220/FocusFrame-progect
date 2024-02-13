@@ -1,0 +1,59 @@
+    
+.about-us{
+    padding-top: 150px  ;
+}
+
+
+
+
+
+
+.about-us-list{
+        display: flex;
+    }
+
+
+
+
+    
+    
+    
+    .about-title{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 112%;
+        letter-spacing: -0.04em;
+        margin-bottom: 50px;
+
+    }
+
+    .us-color{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 112%;
+        letter-spacing: -0.04em;
+    }
+
+     .article-about{
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+margin-left: 40px;
+margin-right: 20px;
+     }  
+
+     .article-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+     }
+
+     .camera-about{
+        border-radius: 1000px;
+width: 260px;
+height: 488px;
+     }
+
