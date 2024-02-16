@@ -1,0 +1,26 @@
+
+
+.hero-box {
+    border-radius: 30px;
+    width: 1080px;
+    height: 470px;
+    background: #1d1d1d;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.hero-div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    max-width: 435px;
+    height: 54px;
+}
