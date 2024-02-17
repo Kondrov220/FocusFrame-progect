@@ -1,0 +1,41 @@
+.reviews-card{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    width: 530px;
+    height: 216px;
+    background-color: #000;
+}
+
+.reviews{  font-family: "DM Sans", sans-serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 112%;
+letter-spacing: -0.04em;
+color: ;
+text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.student-name{
+    font-family: "DM Sans", sans-serif;    
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color:white;
+}
+
+.person-status{
+    font-family: "DM Sans", sans-serif;    
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.5);
+}
+
+.course-about{
+    font-family: "DM Sans", sans-serif;    
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: white;
+}
