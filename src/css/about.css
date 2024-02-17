@@ -1,4 +1,9 @@
-    
+body{
+    font-family: ;
+}    
+
+
+
 .about-us{
     padding-top: 150px  ;
 }
@@ -9,7 +14,7 @@
 
 
 .about-us-list{
-        display: flex;
+ 
     }
 
 
@@ -28,6 +33,8 @@
     }
 
     .us-color{
+        font-family: DM sans;
+        color: #BEA69E;
         font-weight: 500;
         font-size: 48px;
         line-height: 112%;
@@ -52,8 +59,5 @@ text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
      }
 
      .camera-about{
-        border-radius: 1000px;
-width: 260px;
-height: 488px;
      }
 
