@@ -4,7 +4,12 @@ body{
 
 
 
-.about-us{
+.about-us{  font-family: "DM Sans", sans-serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 112%;
+letter-spacing: -0.04em;
+color: var(--white);
     padding-top: 150px  ;
 }
 
@@ -33,7 +38,7 @@ body{
     }
 
     .us-color{
-        font-family: DM sans;
+        font-family: "DM Sans", sans-serif;    
         color: #BEA69E;
         font-weight: 500;
         font-size: 48px;
@@ -42,6 +47,7 @@ body{
     }
 
      .article-about{
+        font-family: "DM Sans", sans-serif;    
 font-weight: 400;
 font-size: 16px;
 line-height: 125%;
