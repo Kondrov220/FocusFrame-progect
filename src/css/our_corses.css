@@ -1,0 +1,47 @@
+.courses-title {
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 48px;
+line-height: 112%;
+letter-spacing: -0.04em;
+color: #fff;
+}
+
+.courses-minititle {
+    color: #bea69e;
+}
+
+.courses-info {
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: #fff;
+}
+
+.courses-number {
+    font-family:  DM Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.4);
+}
+
+.courses-subtitle {
+    font-family: DM Sans;
+font-weight: 500;
+font-size: 28px;
+line-height: 114%;
+color: #fff;
+}
+
+.courses-text {
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.5);
+}
