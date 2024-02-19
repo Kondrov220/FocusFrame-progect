@@ -13,3 +13,7 @@
     --white: #fff;
     --brown: #bea69e;
 }
+
+body {
+    background: var(--black);
+}

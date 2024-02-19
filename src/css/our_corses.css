@@ -1,3 +1,10 @@
+.courses-item{
+    background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    width: 347px;
+    height: 452px;
+}
 
 .courses-title {
     font-family: DM Sans;
