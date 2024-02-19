@@ -6,11 +6,8 @@ font-size: 48px;
 line-height: 112%;
 letter-spacing: -0.04em;
 color: var(--white);
-    padding-top: 150px  ;
+    padding-top: 150px ;
 }
-
-
-
 
 
 
@@ -20,17 +17,13 @@ display: flex;
 
 
     .camera-about{
-        background-image: url(../img/camera-about-us.webp);
-    background-position: center;
-    border-radius: 1000px;
+ background-image: url(../img/camera-about-us.webp);
+ background-position: center;
+border-radius: 1000px;
 width: 260px;
 height: 488px;
 background-repeat: no-repeat;
     }
-
-    .camera{
-    }
-    
     
     .about-title{
         font-weight: 500;
@@ -71,6 +64,4 @@ letter-spacing: -0.02em;
 color: white;
 font-weight: 400;
 text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-     }
-
-
+     }                                                                                                                                                       
