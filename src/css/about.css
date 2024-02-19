@@ -1,7 +1,3 @@
-body{color: black;
-    font-family: "DM Sans", sans-serif;
-}    
-
 
 
 .about-us{  font-family: "DM Sans", sans-serif;
@@ -19,15 +15,20 @@ color: var(--white);
 
 
 .about-us-list{
-
+display: flex;
     }
 
 
-
+    .camera-about{
+        background-image: url(../img/camera-about-us.webp);
+    background-position: center;
+    border-radius: 1000px;
+width: 260px;
+height: 488px;
+background-repeat: no-repeat;
+    }
 
     .camera{
-        width: 260px;
-        height: 488px;
     }
     
     
