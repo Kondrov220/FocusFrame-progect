@@ -7,3 +7,9 @@
 @import url('./rewiew.css');
 @import url('./sing_up.css');
 @import url('./footer.css');
+
+:root {
+    --black: #121212;
+    --white: #fff;
+    --brown: #bea69e;
+}
