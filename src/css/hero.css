@@ -6,7 +6,8 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 80px;
-    padding-bottom: 50px;
+
+    display: flex;
 }
 
 .hero-div {
@@ -22,13 +23,12 @@
 
 .hero-title {
     margin-bottom: 20px;
-    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 64px;
     line-height: 106%;
     letter-spacing: -0.04em;
     color: var(--white);
-    max-width: 540px;
+    max-width: 530px;
 }
 
 .hero-text {
