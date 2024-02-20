@@ -45,7 +45,10 @@ line-height: 125%;
 letter-spacing: -0.02em;
 margin-left: 40px;
 margin-right: 20px;
+color: white;
      }  
+
+
 
      .article-text{
         font-family: "DM Sans";
@@ -53,6 +56,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 125%;
 letter-spacing: -0.02em;
+color: whitesmoke;
 text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
      }
 
@@ -60,7 +64,7 @@ text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         background-image: url(../img/camera-about-us.webp) ;
         background-position: center;
         background-repeat: no-repeat;
-        border-radius: 1000px;
+    
 width: 260px;
 height: 488px;
      }
