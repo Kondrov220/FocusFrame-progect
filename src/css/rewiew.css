@@ -7,7 +7,7 @@
   color: white;
 }
 
-.reviews-card {
+.reviews-card {display: flex;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   width: 530px;
@@ -16,11 +16,13 @@
 }
 
 .student-name {
+  padding-top: 23px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 140%;
   color: white;
+  margin-bottom: 23px;
 }
 
 .student {
@@ -32,7 +34,9 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.reviews-photo {
+.reviews-photo {padding-left: 20px; 
+  padding-top: 20px;
+  margin-right: 10px;
   border-radius: 100px;
   width: 56px;
   height: 56px;
@@ -41,21 +45,40 @@
 .student-about {
 }
 
-.rating-stars{
-  background-image: url(../img/rating-stars.webp);
-  background-position: right;
-  background-repeat: no-repeat;
+.rating-stars{display:flex;
+  order: 5;
+align-items: flex-end;
+background-size: 50px;
+width: 500px;
+height: 19px;
+padding-right: 20px;
+padding-top: 20px;
 
 }
 
 .article-description {
   font-family: 'DM Sans', sans-serif;
-
   color: white;
+padding-left: 20px ;
+padding-right: 20px;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
 }
 
 .article-about {
   font-family: 'DM Sans', sans-serif;
-
   color: white;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+padding-right: 20px;
+}
+
+.rewiew-list{
+  display: flex;
+  justify-content: center;
+  gap: 20px ;
 }
