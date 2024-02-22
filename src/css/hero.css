@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 80px;
-
+    padding-bottom: 50px;
     display: flex;
 }
 
@@ -39,5 +39,38 @@
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.02em;
+    color: var(--white);
+}
+
+.hero-list {
+    display: flex;
+    margin-top: 136px;
+}
+
+.hero-item:nth-child(1) {
+    max-width: 231px;
+    display: flex;
+}
+
+.hero-item:nth-child(2) {
+    max-width: 120px;
+    margin-left: 40px;
+}
+
+.item-img {
+    width: 54px;
+    height: 54px;
+}
+
+.item-img:nth-child(2) {
+    margin-left: -20px;
+}
+
+.item-img:nth-child(3) {
+    margin-left: -20px;
+}
+
+.text-item {
+    margin-left: 12px;
     color: var(--white);
 }
