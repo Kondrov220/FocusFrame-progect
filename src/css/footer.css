@@ -1,0 +1,54 @@
+.container {
+    width: 1100px;
+    padding: 10px;
+    margin: 0 auto;
+    outline: 2px solid crimson;
+}
+.title{
+      font-family: "DM Sans";
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: var(--white);
+}
+.privaticy{
+      font-family: "DM Sans";
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: var(--white);
+}
+.web-sites{
+      font-family: "DM Sans";
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: var(--white);
+}
+.other-info{
+      font-family: "DM Sans";
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: var(--white);
+}
+.inform{
+      font-family: "DM Sans";
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: var(--white);
+}
+.information{
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: var(--black);
+}
