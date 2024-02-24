@@ -20,7 +20,7 @@ color: rgba(255, 255, 255, 0.5);
     margin:0 auto;
     padding: 10px;
 }
-.ourmentors-list {
+.mentors-list {
     display: flex;
     gap: 100px;
 }
