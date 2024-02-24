@@ -36,11 +36,12 @@ letter-spacing: -0.02em;
 color: #fff;
 margin-left: 410px;
 display: flex;
+width: 405px;
 }
 
 .courses-boxs {
     display: flex;
-    height: 100%;
+    width: 100%;
 }
 
 .courses-box {
