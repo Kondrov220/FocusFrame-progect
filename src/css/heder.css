@@ -16,3 +16,8 @@ line-height: 156%;
 text-transform: uppercase;
 color: #121212;;
 }
+.container {
+    width: 1100px;
+    margin:0 auto;
+    padding: 10px;
+}
