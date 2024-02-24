@@ -1,10 +1,17 @@
+.courses-list {
+    display: flex;
+    gap:12px;
+}
+
 .courses-item{
     background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     width: 347px;
     height: 452px;
+    padding: 31px;
 }
+
 
 .courses-title {
     font-family: DM Sans;
@@ -13,6 +20,7 @@ font-size: 48px;
 line-height: 112%;
 letter-spacing: -0.04em;
 color: #fff;
+display: flex;
 }
 
 .courses-minititle {
@@ -26,6 +34,18 @@ font-size: 16px;
 line-height: 125%;
 letter-spacing: -0.02em;
 color: #fff;
+margin-left: 410px;
+display: flex;
+}
+
+.courses-boxs {
+    display: flex;
+    height: 100%;
+}
+
+.courses-box {
+    display: flex;
+    justify-content: space-between;
 }
 
 .courses-number {
@@ -35,6 +55,17 @@ font-size: 14px;
 line-height: 129%;
 letter-spacing: -0.02em;
 color: rgba(255, 255, 255, 0.4);
+}
+
+.courses-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background: #1d1d1d;
+
 }
 
 .courses-subtitle {
@@ -52,4 +83,11 @@ font-size: 16px;
 line-height: 125%;
 letter-spacing: -0.02em;
 color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    width: 1100px;
+    padding: 10px;
+    margin: 0 auto;
+    outline: 2px solid crimson;
 }
