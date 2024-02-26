@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    background-color:#121212;
 }
 .header-link {
     font-family: "DM Sans";
@@ -26,9 +26,7 @@ color: #121212;;
     display: flex;
     gap: 28px;
 }
-.header-button {
-    display: flex;
-}
+
 .logo {
     padding-top: 21px;
     padding-bottom: 21px;
