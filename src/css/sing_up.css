@@ -39,3 +39,24 @@ color: var(--white);
     letter-spacing: -0.02em;
     color: var(--gray);  
 }
+
+title-sing{
+    color: white;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    
+}
+title-up{
+    color:  #BEA69E;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    
+}
