@@ -12,9 +12,16 @@
     letter-spacing: -0.02em;
     color: var(--white);
 }
+.button{
+    border-radius: 12px;
+padding: 16px 216px;
+width: 479px;
+height: 60px;
+background-color: white;
+
+}
 .information{
-display: flex;
-flex-direction: row;
+
     font-family: "DM Sans";
 font-weight: 400;
 font-size: 16px;
@@ -23,12 +30,39 @@ letter-spacing: -0.02em;
 color: var(--white);
 }
 .info{
-    font-family: "DM Sans";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 125%;
-    letter-spacing: -0.02em;
-    color: var(--gray); 
+    display: flex;
+flex-direction: row;
+font-family: DM Sans;
+padding: 23px 18px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 12px;
+width: 444px;
+height: 14px;
+background-color:black;
+}
+.infor{
+    display: flex;
+flex-direction: row;
+font-family: DM Sans;
+padding: 23px 18px;
+align-items: start;
+justify-content: start;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 12px;
+width: 444px;
+height: 74px;
+background-color:black;
 }
 .privaticy{
 
@@ -40,7 +74,7 @@ color: var(--white);
     color: var(--gray);  
 }
 
-title-sing{
+.title-sing{
     color: white;
     font-family: DM Sans;
     font-size: 48px;
@@ -50,7 +84,7 @@ title-sing{
     text-align: left;
     
 }
-title-up{
+.title-up{
     color:  #BEA69E;
     font-family: DM Sans;
     font-size: 48px;
