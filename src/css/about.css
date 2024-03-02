@@ -54,11 +54,5 @@ height: 260px;
 }
 
 .camera-about{
-    background-image: url(../img/camera-about-us.webp);
-    background-repeat: no-repeat;
-    width: 260px;
-    height: 488px;
-    background-position: center;
-    margin-right: 40px;
-    background-size: contain;
+margin-right: 40px;
 }
