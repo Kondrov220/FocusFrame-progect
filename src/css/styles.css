@@ -15,6 +15,6 @@
 }
 
 body {
-    background: var(--black);
+    background: var(--black) ;
     font-family: 'DM Sans';
 }

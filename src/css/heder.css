@@ -1,6 +1,6 @@
 .header {
-  background-color: #121212;
-  
+  background:  #121212 url(../img/Graphic.webp);
+ 
 }
 .header-link {
   font-family: 'DM Sans';
@@ -16,10 +16,10 @@
   line-height: 156%;
   text-transform: uppercase;
   color: #121212;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 85px;
-  padding-right: 85px;
+  border-radius: 12px;
+  width: 238px;
+height: 60px;
+text-align: center;
   
 }
 .container {
@@ -44,4 +44,9 @@ align-items: center;
     padding-right: 50px;
     padding-left: 50px;
     align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 12px;
+width: 722px;
+height: 60px;
+background-color: var(--black);
 }
