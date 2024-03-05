@@ -2,11 +2,12 @@
        width: 1100px;
        padding: 10px;
        margin: 0 auto;
-       outline: 2px solid crimson;
  }
 
  .footer-site {
        padding-top: 48px;
+       background:  #121212 url(../img/Graphic.webp);
+       margin-top: 150px;
  }
 
  .title {
