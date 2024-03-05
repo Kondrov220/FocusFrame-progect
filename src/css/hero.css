@@ -1,17 +1,24 @@
+.hero {
+    padding-top: 80px;
+    background-image: url(../img/Graphic.webp);
+}
+
 .hero-box {
     border-radius: 30px;
     width: 1080px;
-    height: 470px;
+    height: 600px;
     background: #1d1d1d;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    display: flex;
+    align-items: end;
 }
 
-.hero-div {
+.hero-box-child {
     margin-left: 50px;
     margin-right: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .hero-title-span {
@@ -22,13 +29,12 @@
 
 .hero-title {
     margin-bottom: 20px;
-    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 64px;
     line-height: 106%;
     letter-spacing: -0.04em;
     color: var(--white);
-    max-width: 540px;
+    max-width: 530px;
 }
 
 .hero-text {
@@ -40,4 +46,78 @@
     line-height: 129%;
     letter-spacing: -0.02em;
     color: var(--white);
+}
+
+.hero-list {
+    display: flex;
+    margin-top: 136px;
+}
+
+.item-img {
+    height: 54px;
+    max-width: 54px;
+}
+
+.text-item {
+    color: var(--white);
+    width: 82px;
+    height: 39px;
+    margin-bottom: 8px;
+}
+
+.daddy-box {
+    display: flex;
+}
+
+.hero-box-one {
+    display: flex;
+    align-items: end;
+}
+
+.hero-box-two {
+    display: flex;
+    align-items: end;
+    margin-left: 40px;
+    width: 132px;
+}
+
+.hero-box-text {
+    margin-left: 12px;
+}
+
+.hero-box-span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.04em;
+    color: var(--white);
+}
+
+.hero-box-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-boxe {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    margin-left: 12px;
+}
+
+.hero-image {
+    width: 397px;
+    height: 520px;
+}
+
+.hero-box-child {
 }

@@ -1,61 +1,96 @@
-.reviews {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 112%;
-  letter-spacing: -0.04em;
-  color: white;
-}
 
-.reviews-card {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 12px;
-  width: 530px;
-  height: 216px;
-  background-color: black;
+  .container {
+    width: 1100px;
+    padding: 10px;
+    margin: 0 auto;
+    outline: 2px solid crimson;
 }
+  .reviews-logo {
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: white;
+  }
+  
+  .reviews-title {
+    line-height: 1.5;
+    margin-bottom: 4px;
+    color: white;
+  }
+  
+  .reviews-item {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    width: 530px;
+    height: 216px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+  }
+  
+  .review-text {
+    color: white;
+    line-height: 1.30;
+    width: 490px;
+    height: 100px;
+  margin-top: 20px;
+  }
+  
+  .reviews-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .reviews-student {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+ .students{
+ }
+  .reviews-section {
+  }
+  
+  .about-student{
+    display: flex;
+  }
 
-.student-name {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 140%;
-  color: white;
-}
-
-.student {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 129%;
-  letter-spacing: -0.02em;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.reviews-photo {
+.student-photo{
   border-radius: 100px;
   width: 56px;
   height: 56px;
+  margin-right: 10px; 
+  margin-bottom: 20px;
 }
 
-.student-about {
-}
-
-.rating-stars{
-  background-image: url(../img/rating-stars.webp);
-  background-position: right;
-  background-repeat: no-repeat;
+.Student-box{
+  display: flex ;
 
 }
+.stars{
+  width: 115px;
+height: 19px;
+margin-left: 156px;
+}
 
-.article-description {
+
+.student-name{
   font-family: 'DM Sans', sans-serif;
-
-  color: white;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+color: white;
+margin-bottom: 4px;
 }
 
-.article-about {
-  font-family: 'DM Sans', sans-serif;
-
+.review-text-first{
+  width: 490px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
   color: white;
+  margin-top: 20px;
 }
