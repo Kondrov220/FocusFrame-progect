@@ -1,6 +1,7 @@
 .hero {
     padding-top: 80px;
     background-image: url(../img/Graphic.webp);
+    padding-bottom: 150px;
 }
 
 .hero-box {
