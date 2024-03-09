@@ -22,6 +22,8 @@ width: 238px;
 height: 60px;
  justify-content: center;
  border: none;
+
+
  
 }
 .container {
@@ -51,4 +53,22 @@ align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
     width: 822px;
 height: 60px;
+background-color: #121212;
+}
+.header-link:hover{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+color: #bea69e;
+}
+.header-button:hover{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 156%;
+text-transform: uppercase;
+color:  #bea69e;
+
+background: #1d1d1d;
 }
