@@ -82,6 +82,10 @@
   border: none;
 }
 
+.courses-button:hover{
+  background-color: var(--brown);
+}
+
 .courses-subtitle {
   font-family: DM Sans;
   font-weight: 500;
